@@ -1,0 +1,110 @@
+   body{
+      display: flex;
+      justify-content: center;
+      padding: 50px;
+      margin: 0;
+      background: linear-gradient(to right, #fff, #4786aa, #444c7e);
+    }
+    .resume{
+      display: flex;
+      max-width: 800px;
+      font-family: Myriad Pro;
+      box-shadow: 25px 20px 25px black;
+      padding: 35px;
+      letter-spacing: 0.3px;
+      border-radius: 2%;
+      background: #fff;
+    }
+    .left{
+      flex: 7;
+    }
+    .right{
+      flex: 3;
+    }
+    img{
+      border-radius: 50%;
+    }
+    .block{
+      padding: 8px; 
+      margin: 0;
+    }
+    .contact{
+      font-size: 20px; 
+      list-style: none; 
+      line-height: 20px;
+      
+    }
+    a{
+      color: gray;
+      text-decoration: none;
+    }
+    .contact{
+      border-bottom: solid 1px gray;
+      padding: 5px; 
+      font-size: 15px;
+    }
+
+    h1{
+      margin: 0px;
+      padding-top: 10px;
+      font-size: 40px; 
+      font-weight: bold;
+      opacity: 0.2;
+    }
+    h2{
+      margin: 0;
+      font-size: 20px; 
+      font-weight: 650;
+      line-height: 38px;
+      color: darkslategrey;
+    }
+    h3{
+      margin: 0;
+      font-size: 14px; 
+      font-weight: 500;
+      line-height: 28px;
+      color: #686e68;
+    }
+
+
+    h5{
+      margin: 0;
+      font-size: 18px; 
+      font-weight: 800;
+      color: #7b807b;
+      padding-bottom: 8px;
+      padding-top: 8px;
+      margin-top: 20px;
+    }
+
+    li{
+      font-size: 12px;
+      line-height: 18px;
+    }
+    .worklist{
+      list-style: none; 
+      padding: 0px;
+      margin: 0;
+    }
+    .school{
+      list-style: none; 
+      padding: 0px;
+    }
+    .worklist>li{
+      padding: 6px;
+    }
+    ul{
+      margin: 0;
+      padding-left: 15px;
+    }
+    .right ul{
+      padding: 0;
+      list-style: none;
+    }
+
+    i {
+        color: darkslategrey;
+    }
+    p {
+        color: gray;
+    }
